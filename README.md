@@ -1,5 +1,8 @@
 # 📖 ClassiCube RISC-V Port for SiFive HiFive Premier P550
-✨ Overview
+
+![ClassiCube running on a RISC-V emulator](https://raw.githubusercontent.com/marcoscodas/classicube-riscv/refs/heads/main/screenshot2.png)
+
+# ✨ Overview
 
 This project provides an automated build and launch solution for running ClassiCube on the SiFive HiFive Premier P550 development platform.
 
@@ -14,7 +17,7 @@ Key Contributions
 
     Special Thanks: SiFive, for their support of the RISC-V ecosystem and hardware.
 
-🛠️ Project Changes and Automation
+# 🛠️ Project Changes and Automation
 
 This solution includes specific modifications to facilitate the build and execution process on the target hardware:
 
@@ -24,7 +27,7 @@ This solution includes specific modifications to facilitate the build and execut
 
     Zink Launch Wrapper: The build process replaces the final ClassiCube executable with a small shell script. This wrapper ensures that every time the user runs ./ClassiCube, the critical environment variable MESA_LOADER_DRIVER_OVERRIDE=zink is set, forcing Zink usage and launching the game in fullscreen mode by default.
 
-🚀 Build and Run Instructions
+# 🚀 Build and Run Instructions
 
 This process is designed to be run directly on your SiFive HiFive Premier P550 board (or a suitable RISC-V environment with appropriate tooling and Mesa drivers).
 Prerequisites
@@ -86,3 +89,5 @@ The accompanying automation scripts (build.sh, Zink wrapper) created for this po
     The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+![ClassiCube running on a RISC-V emulator](https://raw.githubusercontent.com/marcoscodas/classicube-riscv/refs/heads/main/screenshot1.png)
