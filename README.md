@@ -1,4 +1,4 @@
-# 📖 ClassiCube RISC-V Port for SiFive HiFive Premier P550
+# ClassiCube RISC-V Port for SiFive HiFive Premier P550
 
 ![ClassiCube running on a RISC-V emulator](https://raw.githubusercontent.com/marcoscodas/classicube-riscv/refs/heads/main/screenshot2.png)
 
@@ -17,7 +17,7 @@ Key Contributions
 
     Special Thanks: SiFive, for their support of the RISC-V ecosystem and hardware.
 
-# 🛠️ Project Changes and Automation
+# Project Changes and Automation
 
 This solution includes specific modifications to facilitate the build and execution process on the target hardware:
 
@@ -27,7 +27,7 @@ This solution includes specific modifications to facilitate the build and execut
 
     Zink Launch Wrapper: The build process replaces the final ClassiCube executable with a small shell script. This wrapper ensures that every time the user runs ./ClassiCube, the critical environment variable MESA_LOADER_DRIVER_OVERRIDE=zink is set, forcing Zink usage and launching the game in fullscreen mode by default.
 
-# 🚀 Build and Run Instructions
+# Build and Run Instructions
 
 This process is designed to be run directly on your SiFive HiFive Premier P550 board (or a suitable RISC-V environment with appropriate tooling and Mesa drivers).
 Prerequisites
@@ -67,7 +67,7 @@ Bash
 
 ./ClassiCube --debug
 
-# 📜 Licensing
+# Licensing
 
 This project adheres to the licensing of the core components it utilizes.
 ClassiCube License
