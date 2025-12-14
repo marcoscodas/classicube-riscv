@@ -13,7 +13,7 @@ Key Contributions
 
     Primary Goal: Achieve reliable hardware-accelerated rendering via the Zink driver.
 
-    Author: Marcos Codas [Idillicah]
+    Author: Marcos Codas [idillicah]
 
     Special Thanks: SiFive, for their support of the RISC-V ecosystem and hardware.
 
