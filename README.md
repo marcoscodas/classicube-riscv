@@ -72,18 +72,12 @@ chmod +x build.sh
 2. Launch ClassiCube
 
 The script places the Zink launch wrapper in the source directory.
-Bash
 
 # Navigate to the built directory
 cd ~/src/ClassiCube
 
-# Launch the game with automatic Zink acceleration and fullscreen enabled
+# Launch the game with automatic Zink acceleration 
 ./ClassiCube
-
-You can still pass additional arguments (like --debug):
-Bash
-
-./ClassiCube --debug
 
 # Licensing
 
