@@ -2,7 +2,7 @@
 
 ![ClassiCube running on a RISC-V emulator](https://raw.githubusercontent.com/marcoscodas/classicube-riscv/refs/heads/main/screenshot2.png)
 
-# ✨ Overview
+# Overview
 
 This project provides an automated build and launch solution for running ClassiCube on the SiFive HiFive Premier P550 development platform.
 
