@@ -27,6 +27,20 @@ This solution includes specific modifications to facilitate the build and execut
 
     Zink Launch Wrapper: The build process replaces the final ClassiCube executable with a small shell script. This wrapper ensures that every time the user runs ./ClassiCube, the critical environment variable MESA_LOADER_DRIVER_OVERRIDE=zink is set, forcing Zink usage and launching the game in fullscreen mode by default.
 
+# How to Run
+
+If you just want to run the game, go to the Releases page, download the latest release, unzip it, and run the ClassiCube executable located in the /src/ClassiCube folder. 
+
+This is a script that launches the actual executable (ClassiCube.bin) with the flags to enable the Zink driver and make hardware acceleration work on the Sifive Premier P550.
+
+# What if I Don't Own A Premier P550?
+
+Just run the ClassiCube.bin binary instead, which is the main ClassiCube binary, compiled for RISC-V with no flags. It is also located in /src/ClassiCube.
+
+# I Want to Build This Myself
+
+Well, I have great news!
+
 # Build and Run Instructions
 
 This process is designed to be run directly on your SiFive HiFive Premier P550 board (or a suitable RISC-V environment with appropriate tooling and Mesa drivers).
@@ -36,14 +50,18 @@ You must have:
 
     A working Debian/Ubuntu-based operating system on the P550.
 
-    The necessary development tools (git, build-essential, etc.).
+    The necessary development tools (git, build-essential, etc.). 
+
+    NOTE: If you don't have these, the script WILL install them for you.
 
     The Mesa Vulkan drivers and Zink support enabled (all Eswin builds or SiFive builds from June 2025 or newer).
 
 1. Execute the Automation Script
 
 Save the complete automation script (which handles all cloning, patching, and wrapper creation) as build.sh and run it:
-Bash
+
+# Download the Script
+wget https://www.github.com/marcoscodas/classicube-riscv/blob/main/build.sh
 
 # Set execute permissions
 chmod +x build.sh
