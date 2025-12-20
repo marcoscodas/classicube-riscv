@@ -1,6 +1,6 @@
 # ClassiCube RISC-V Port for SiFive HiFive Premier P550
 
-![ClassiCube running on a RISC-V emulator](https://raw.githubusercontent.com/marcoscodas/classicube-riscv/refs/heads/main/screenshot2.png)
+![ClassiCube running on a Premier P550 RISC-V board](https://raw.githubusercontent.com/marcoscodas/classicube-riscv/refs/heads/main/screenshot2.png)
 
 # Overview
 
@@ -102,4 +102,4 @@ The accompanying automation scripts (build.sh, Zink wrapper) created for this po
 
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-![ClassiCube running on a RISC-V emulator](https://raw.githubusercontent.com/marcoscodas/classicube-riscv/refs/heads/main/screenshot1.png)
+![ClassiCube running on a Premier P550 RISC-V board](https://raw.githubusercontent.com/marcoscodas/classicube-riscv/refs/heads/main/screenshot1.png)
